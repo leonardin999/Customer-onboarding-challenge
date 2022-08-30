@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20220830 18:20:42.086" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\phung\.vscode\extensions\robocorp.robotframework-lsp-1.1.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Open The Challenge Website">
+<msg timestamp="20220830 18:20:44.159" level="FAIL">No keyword with name 'Open The Challenge Website' found.</msg>
+<status status="FAIL" starttime="20220830 18:20:44.158" endtime="20220830 18:20:44.159"/>
+</kw>
+<kw name="Get Customers List">
+<var>${customers}</var>
+<status status="NOT RUN" starttime="20220830 18:20:44.165" endtime="20220830 18:20:44.165"/>
+</kw>
+<for flavor="IN">
+<var>${customer}</var>
+<value>@{customers}</value>
+<iter>
+<var name="${customer}"/>
+<kw name="Fill and submit customer info">
+<arg>${customer}</arg>
+<status status="NOT RUN" starttime="20220830 18:20:44.171" endtime="20220830 18:20:44.171"/>
+</kw>
+<status status="NOT RUN" starttime="20220830 18:20:44.166" endtime="20220830 18:20:44.172"/>
+</iter>
+<status status="NOT RUN" starttime="20220830 18:20:44.165" endtime="20220830 18:20:44.172"/>
+</for>
+<kw name="Take a screenshot of the result">
+<status status="NOT RUN" starttime="20220830 18:20:44.173" endtime="20220830 18:20:44.174"/>
+</kw>
+<status status="PASS" starttime="20220830 18:20:42.176" endtime="20220830 18:20:47.283"/>
+</kw>
+<status status="PASS" starttime="20220830 18:20:42.175" endtime="20220830 18:20:47.283"/>
+</test>
+<status status="PASS" starttime="20220830 18:20:42.086" endtime="20220830 18:20:47.285"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
